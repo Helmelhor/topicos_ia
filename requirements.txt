@@ -1,0 +1,23 @@
+# --- Framework de Aprendizado por Reforço ---
+# Versão antiga e estável, compatível com o ambiente Gym clássico
+stable-baselines3==1.8.0
+
+# --- Ambiente e Jogo ---
+# Padrão de ambiente de treinamento (versão clássica)
+gym==0.21.0
+# Biblioteca para o ambiente do jogo Super Mario Bros
+gym-super-mario-bros
+
+# --- Bibliotecas de Suporte Essenciais ---
+# Processamento de imagem (usado pelos wrappers)
+opencv-python
+# Cálculos numéricos (versão compatível com Python 3.7 e a pilha acima)
+numpy==1.21.6
+# Dependência do Gym 0.21.0 para gerenciamento de plugins
+importlib-metadata==4.13.0
+
+# --- Ferramentas Adicionais ---
+# Para visualização e monitoramento do treinamento
+tensorboard
+# Ambiente de desenvolvimento interativo
+jupyter
