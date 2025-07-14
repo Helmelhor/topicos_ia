@@ -8,11 +8,11 @@
 
 O projeto é baseado nos seguintes conceitos de Aprendizado por Reforço:
 
-  * [cite\_start]**Agente**: O nosso "robô" ou cérebro, que é uma Rede Neural Convolucional (CNN) responsável por tomar as decisões (ações) dentro do jogo. [cite: 7]
-  * [cite\_start]**Ambiente**: O próprio jogo Super Mario Bros emulado, com suas regras, fases e inimigos. [cite: 8] [cite\_start]O ambiente fornece ao agente o estado atual da tela e uma recompensa após cada ação. [cite: 9]
-  * [cite\_start]**Estado**: Uma "fotografia" da tela do jogo em um determinado momento, representada pelos pixels da imagem. [cite: 10] [cite\_start]Para dar ao agente a noção de movimento, nós empilhamos 4 frames consecutivos como um único estado. [cite: 46, 47]
-  * [cite\_start]**Ações**: As decisões que o agente pode tomar, como andar para a direita, pular ou correr. [cite: 11] [cite\_start]Para simplificar, utilizamos um conjunto reduzido de 7 ações essenciais. [cite: 12]
-  * [cite\_start]**Recompensa**: Um sinal numérico que o ambiente envia ao agente. [cite: 13] [cite\_start]A recompensa padrão premia o avanço para a direita, penaliza o tempo e a morte do personagem. [cite: 14]
+  * **Agente**: O nosso "robô" ou cérebro, que é uma Rede Neural Convolucional (CNN) responsável por tomar as decisões (ações) dentro do jogo. 
+  * **Ambiente**: O próprio jogo Super Mario Bros emulado, com suas regras, fases e inimigos. O ambiente fornece ao agente o estado atual da tela e uma recompensa após cada ação. 
+  * **Estado**: Uma "fotografia" da tela do jogo em um determinado momento, representada pelos pixels da imagem. Para dar ao agente a noção de movimento, nós empilhamos 4 frames consecutivos como um único estado.
+  * **Ações**: As decisões que o agente pode tomar, como andar para a direita, pular ou correr. Para simplificar, utilizamos um conjunto reduzido de 7 ações essenciais. 
+  * **Recompensa**: Um sinal numérico que o ambiente envia ao agente. A recompensa padrão premia o avanço para a direita, penaliza o tempo e a morte do personagem. 
 
 ## 🛠️ Tecnologias e Bibliotecas
 
