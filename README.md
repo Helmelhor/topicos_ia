@@ -91,3 +91,11 @@ Para assistir a um agente já treinado jogando, execute o script `teste.py`. Lem
 ```bash
 python teste.py
 ```
+
+
+Grupo:
+Helmer
+Marcelle
+Pedro
+Ricardo
+Victor
